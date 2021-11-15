@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MVP Architecture</string>
+    <string name="buttonText">Display Next Sentence</string>
+    <string name="heading">MVP Architecture Pattern</string>
+    <string name="subHeading">Computer Science</string>
+    <string name="description">Pattern Description</string>
+</resources>
