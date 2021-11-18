@@ -30,13 +30,15 @@ class MainActivity : AppCompatActivity(), Contract.View {
      * Implement 3 functions of View Interface
      */
     override fun showProgress() {
-        binding.progressBar.visibility = View.VISIBLE
+//        binding.progressBar.visibility = View.VISIBLE
         binding.textView.visibility = View.INVISIBLE
+        binding.mainLottieAnim.visibility = View.VISIBLE
     }
 
     override fun hideProgress() {
-        binding.progressBar.visibility = View.INVISIBLE
+        binding.mainLottieAnim.visibility = View.INVISIBLE
         binding.textView.visibility = View.VISIBLE
+//        binding.progressBar.visibility = View.INVISIBLE
     }
 
     override fun setString(string: String?) {
