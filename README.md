@@ -4,4 +4,4 @@ Is the simple, basic application juste to give a "diagram" of Model-View-Present
 
 * In use:
 
-![Lottie logo](./app/src/main/assets/Lottie-files-logo.gif) Lottie animation
+<img src="./app/src/main/assets/Lottie-files-logo.gif" alt="Lottie gif logo" height="48"/> Lottie animation
