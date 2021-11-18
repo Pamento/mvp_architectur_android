@@ -2,6 +2,7 @@ package com.pawel.mvp_architecture.model
 
 
 import android.os.Handler
+import android.os.Looper
 import com.pawel.mvp_architecture.contracts.Contract
 
 
@@ -33,7 +34,7 @@ class Model : Contract.Model {
     // and it will take a delay of
     // 1200 milliseconds to display next course detail
     override fun getNextCourse(onFinishedListener: Contract.Model.OnFinishedListener?) {
-        Handler().postDelayed({ onFinishedListener!!.onFinished(getNextString) }, 800)
+        Handler(Looper.getMainLooper()).postDelayed({ onFinishedListener!!.onFinished(getNextString) }, 800)
     }
 
 
